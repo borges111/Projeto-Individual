@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    padding: 1px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,
+p {
+    color: aliceblue;
+}
+
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 20px;
+}
+
+li:hover,
+h1 :hover,
+button:hover {
+    cursor: pointer;
+    opacity: 0, 8;
+    background-color: rgb(196, 196, 81);
+}
+
+img {
+    border: 2px solid black;
+    margin-left: 43%;
+    margin-right: -50%;
+}
+
+h2 {
+    text-align: center;
+
+}
